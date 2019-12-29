@@ -16,15 +16,20 @@ Lorién Portella ([LinkedIn](https://www.linkedin.com/in/lorien-portella-2144b21
 
 Joel Cabaco ([LinkedIn](https://www.linkedin.com/in/joel-cabaco-6074a8160/))
 
-- a
-- b
-- c
+- Editor Configuration window (settings for application, camera, render, space partitioning, window, hardware and geometry).
+- Primitive creation through par_shapes.
+- Time editor (play, pause, stop and component updates).
+- Asset explorer window.
+- Space partitioning (quadtree).
+- FPS limitation and management.
+- Hardware display.
+- Frustum culling.
 
 ``TODO: Add all contributions``
 
 ### Core subsystems
 
-#### 1
+#### 
 
 #### 2 ``TODO: Add subsystems``
 
