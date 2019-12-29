@@ -8,9 +8,16 @@ Rootin' Tootin' Engine (RTEngine) is a 3D game engine coded in C++ using OpenGL.
 
 Lorién Portella ([LinkedIn](https://www.linkedin.com/in/lorien-portella-2144b2159/))
 
-- a
-- b
-- c
+- Model importing.
+- Model rendering.
+- Hierarchy.
+- Tri-based mouse picking.
+- Inspector.
+- Console.
+- Texturing.
+- Gameobject and component structure.
+- Serialization.
+- Scripting system.
 
 ![Joel Cabaco](https://i.imgur.com/VFvuzGz.jpg)
 
@@ -18,12 +25,13 @@ Joel Cabaco ([LinkedIn](https://www.linkedin.com/in/joel-cabaco-6074a8160/))
 
 - Editor Configuration window (settings for application, camera, render, space partitioning, window, hardware and geometry).
 - Primitive creation through par_shapes.
-- Time editor (play, pause, stop and component updates).
+- Time management (play, pause, stop and component updates).
 - Asset explorer window.
 - Space partitioning (quadtree).
 - FPS limitation and management.
 - Hardware display.
 - Frustum culling.
+- Text editor.
 
 ``TODO: Add all contributions``
 
