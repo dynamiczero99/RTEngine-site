@@ -1,32 +1,26 @@
-## Welcome to GitHub Pages
+## Rootin' Tootin Engine
 
-You can use the [editor on GitHub](https://github.com/dynamiczero99/RTEngine-site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Rootin' Tootin' Engine (RTEngine) is a 3D game engine coded in C++ using OpenGL. It is the product of the Game Engines subject in the Bachelor's Degree in Videogame Design and Development. The engine features a scripting system using Lua.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Developers
 
-### Markdown
+Lorién Portella (https://www.linkedin.com/in/lorien-portella-2144b2159/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Joel Cabaco (https://www.linkedin.com/in/joel-cabaco-6074a8160/)
 
-```markdown
-Syntax highlighted code block
+### Core subsystems
 
-# Header 1
-## Header 2
-### Header 3
+#### 1
 
-- Bulleted
-- List
+#### 2
 
-1. Numbered
-2. List
+### Main subsystem: scripting
 
-**Bold** and _Italic_ and `Code` text
+### Demonstration
 
-[Link](url) and ![Image](src)
-```
+### Download
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+You can check out all of our code in our [Github repo](https://github.com/RootinTootinCoodin/RTEngine), and/or download our [latest release](https://github.com/RootinTootinCoodin/RTEngine). ``Todo: change release link to actual release).``
 
 ### Jekyll Themes
 
