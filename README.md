@@ -4,9 +4,11 @@ Rootin' Tootin' Engine (RTEngine) is a 3D game engine coded in C++ using OpenGL.
 
 ### Developers
 
-Lorién Portella (https://www.linkedin.com/in/lorien-portella-2144b2159/)
+![LoriénImage](/0.jfif)
+Lorién Portella [(LinkedIn)](https://www.linkedin.com/in/lorien-portella-2144b2159/)
 
-Joel Cabaco (https://www.linkedin.com/in/joel-cabaco-6074a8160/)
+
+Joel Cabaco [(LinkedIn)](https://www.linkedin.com/in/joel-cabaco-6074a8160/)
 
 ### Core subsystems
 
