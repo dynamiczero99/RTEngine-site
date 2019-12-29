@@ -10,6 +10,7 @@ Lorién Portella ([LinkedIn](https://www.linkedin.com/in/lorien-portella-2144b21
 
 - Model importing.
 - Model rendering.
+- Own file format.
 - Hierarchy.
 - Tri-based mouse picking.
 - Inspector.
@@ -37,9 +38,29 @@ Joel Cabaco ([LinkedIn](https://www.linkedin.com/in/joel-cabaco-6074a8160/))
 
 ### Core subsystems
 
-#### 
+#### OpenGL
 
-#### 2 ``TODO: Add subsystems``
+Our engine is able to load and display models through OpenGL. These models are drawn using buffers created from the vertex data on the loaded files. It supports drag and drop for loading. These models can also be textured, either with a checkered texture given by the own engine, or by any texture loaded into it.
+
+#### UI and respective subsystems
+
+RTEngine uses the ImGui library for its UI. We feature many windows in order to manage and keep track of different elements of the engine:
+
+- Scene: This is the 3D OpenGL environment where the models are loaded and used.
+
+- Configuration: This window displays the status for the main settings of the engine. The application submenu displays the FPS and last frame ms, enables the limiting of FPS, and changes the name of the window or the organization. The editor camera submenu has the options for camera movement in the editor and can enable or disable the debug draw of the camera frustum and the frustum culling. In the render submenu are the options for the different OpenGL renderer settings such as face culling, lighting, depth test, etc, and also contains the display options for the scene axis and grid. The space partitioning submenu includes the debug draw for the quadtree and the bucket for each quadtree node. The window submenu has the options for the program window such as width, height, brightness, the refresh rate of the monitor the window is currently in, fullsceen toggle, etc. The hardware submenu simply displays the SDL version and the specifications of the PC the engine is currently running on. Finally, in the geometry submenu different primitives can be created into the scene, selecting the number of slices and stacks of the generated item.
+
+- Hierarchy: In the hierarchy the different gameobjects can be seen, selected and nested. The scene can also be saved in this window.
+
+- Inspector: The inspector shows data for the current gameobject's components as well as its transform and texture, its UUID, and other important data.
+
+- Time: The time window allows playing, pausing and stopping of the scene in-game clock, in order to test scripts in real time.
+
+- Assets: The assets window shows an explorer in order to select resources to be imported to the engine such as models, textures or scripts.
+
+- Console: The console shows logs giving information of the engine's processes such as prompts when loading a new mesh with info on the number of vertices and indices or the state of loading configuration files.
+
+- About: The about window shows the different libraries used with version number and (if appliable) the home site of said library.
 
 ### Main subsystem: scripting
 
